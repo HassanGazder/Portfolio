@@ -44,6 +44,87 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+  /* Services Section Styles */
+  .services .icon-box {
+    padding: 40px 30px;
+    transition: all 0.4s ease-in-out;
+    background: #fff;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
+    border-radius: 10px;
+    border-bottom: 3px solid #fff;
+    height: 100%;
+  }
+
+  .services .icon-box:hover {
+    transform: translateY(-10px);
+    border-bottom: 3px solid #149ddd;
+    box-shadow: 0px 10px 100px 0px rgba(110, 123, 131, 0.2);
+  }
+
+  .services .icon-box .icon {
+    margin-bottom: 15px;
+  }
+
+  .services .icon-box .icon i {
+    color: #149ddd;
+    font-size: 48px;
+    transition: 0.3s;
+    line-height: 1;
+  }
+
+  .services .icon-box:hover .icon i {
+    transform: scale(1.1);
+  }
+
+  .services .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  .services .icon-box h4 a {
+    color: #45505b;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+
+  .services .icon-box:hover h4 a {
+    color: #149ddd;
+  }
+
+  .services .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: #6c757d;
+  }
+
+  .services .service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .services .service-features li {
+    padding: 8px 0;
+    font-size: 14px;
+    color: #45505b;
+  }
+
+  .services .service-features li i {
+    color: #149ddd;
+    margin-right: 8px;
+    font-size: 16px;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .services .icon-box {
+      margin-bottom: 20px;
+    }
+  }
+</style>
   </head>
 
   <body>
@@ -55,15 +136,23 @@
       <div class="d-flex flex-column">
         <div class="profile">
           <img
-            src="assets/img/profile-img (2) (1).jpg"
+            src="assets/img/Profile.png"
             alt=""
             class="img-fluid rounded-circle"
           />
           <h1 class="text-light"><a href="index.html">Hassan Gazder</a></h1>
           <div class="social-links mt-3 text-center">
-            <a href="https://github.com/HassanGazder" class="twitter"><i class="bx bxl-github"></i></a>
-            <a href="https://www.instagram.com/hassangazder/" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="http://www.linkedin.com/in/hassan-rashid-257769236" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/HassanGazder" class="twitter"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.instagram.com/hassangazder/" class="instagram"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+            <a
+              href="http://www.linkedin.com/in/hassan-rashid-257769236"
+              class="linkedin"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
           </div>
         </div>
 
@@ -121,26 +210,30 @@
     </section>
     <!-- End Hero -->
 
-    <main id="main">
+      <main id="main">
       <!-- ======= About Section ======= -->
       <section id="about" class="about">
         <div class="container">
           <div class="section-title">
             <h2>About</h2>
             <p>
-              Hey there! I'm Hassan Gazder, a passionate front-end developer
-              with a knack for crafting captivating user experiences and sleek
-              interfaces. With 2 years of experience in the field, I thrive on
-              the dynamic nature of web development, constantly seeking out new
-              technologies and design trends to elevate my work.
+              Motivated Full-Stack Web Developer with 2.5 years of hands-on
+              internship experience building responsive, user-friendly web
+              applications. Skilled in HTML, CSS, JavaScript, React.js, Node.js,
+              Express.js, MongoDB, MySQL, and WordPress. Proven ability to
+              deliver production-ready solutions under tight deadlines, from
+              e-commerce platforms deployed in 3 days to performance-optimized
+              websites with improved SEO rankings. Adept at debugging,
+              problem-solving, and collaborating in Agile teams, with a strong
+              foundation in modern frameworks and industry best practices.
             </p>
           </div>
 
           <div class="row">
             <div class="col-lg-4" data-aos="fade-right">
-              <img src="assets/img/hero.jpg" class="img-fluid" alt="" />
+              <!-- <img src="assets/img/hero.jpg" class="img-fluid" alt="" /> -->
             </div>
-            <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <!-- <div class="col-lg-12 pt-4 pt-lg-0 content" data-aos="fade-left">
               <h3>Front-end Web Developer.</h3>
               <div class="row">
                 <div class="col-lg-6">
@@ -148,16 +241,6 @@
                     <li>
                       <i class="bi bi-chevron-right"></i>
                       <strong>Birthday:</strong> <span>3 May 2003</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <strong>Website:</strong>
-                      <span
-                        href="https://portfolio.azfamtech.com/travel-and-tour/
-                      "
-                        style="font-size: 12px"
-                        >https://portfolio.azfamtech.com/travel-and-tour/</span
-                      >
                     </li>
                     <li>
                       <i class="bi bi-chevron-right"></i>
@@ -199,7 +282,7 @@
                 applications that not only look stunning but also offer seamless
                 usability across devices.
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -210,17 +293,17 @@
         <div class="container">
           <div class="section-title">
             <h2>Skills</h2>
-            <p>
+            <!-- <p>
               Hi there! I'm a front-end developer proficient in HTML, CSS,
               JavaScript, Bootstrap, Angular, React, React Native, and MySQL.
               Let's collaborate on creating something amazing!
-            </p>
+            </p> -->
           </div>
 
           <div class="row skills-content">
             <div class="col-lg-6" data-aos="fade-up">
               <div class="progress">
-                <span class="skill">HTML <i class="val">100%</i></span>
+                <span class="skill">HTML5 <i class="val">100%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -233,7 +316,7 @@
               </div>
 
               <div class="progress">
-                <span class="skill">CSS <i class="val">90%</i></span>
+                <span class="skill">CSS3 <i class="val">90%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -246,7 +329,7 @@
               </div>
 
               <div class="progress">
-                <span class="skill">BOOTSRTAP <i class="val">100%</i></span>
+                <span class="skill">JavaScript (ES6+) <i class="val">60%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -258,7 +341,7 @@
                 </div>
               </div>
               <div class="progress">
-                <span class="skill">React Js <i class="val">50%</i></span>
+                <span class="skill">React.js <i class="val">50%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -269,11 +352,48 @@
                   ></div>
                 </div>
               </div>
+                 <div class="progress">
+                <span class="skill">Bootstrap <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+               <div class="progress">
+                <span class="skill">Vue.Js <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+               <div class="progress">
+                <span class="skill">Wordpress <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
               <div class="progress">
-                <span class="skill">JAVASCRIPT <i class="val">50%</i></span>
+                <span class="skill">Node.Js <i class="val">50%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -286,7 +406,7 @@
               </div>
 
               <div class="progress">
-                <span class="skill">Angular <i class="val">30%</i></span>
+                <span class="skill">Express.js <i class="val">30%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -299,7 +419,7 @@
               </div>
 
               <div class="progress">
-                <span class="skill">React-native <i class="val">30%</i></span>
+                <span class="skill">rest apis <i class="val">30%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -311,7 +431,43 @@
                 </div>
               </div>
               <div class="progress">
-                <span class="skill">My Sql <i class="val">50%</i></span>
+                <span class="skill">mongodb <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="30"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">mysql <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="30"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">sql <i class="val">50%</i></span>
+                <div class="progress-bar-wrap">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    aria-valuenow="30"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">github <i class="val">50%</i></span>
                 <div class="progress-bar-wrap">
                   <div
                     class="progress-bar"
@@ -330,126 +486,94 @@
 
       <!-- ======= Resume Section ======= -->
       <section id="resume" class="resume">
-        <div class="container">
-          <div class="section-title">
-            <h2>Resume</h2>
-            <p>
-              My journey in front-end development began with a fascination for
-              blending creativity with technical prowess. Armed with expertise
-              in HTML, CSS, and JavaScript, I specialize in transforming design
-              concepts into pixel-perfect, responsive websites and web
-              applications that not only look stunning but also offer seamless
-              usability across devices.
-            </p>
-          </div>
+  <div class="container">
+    <div class="section-title">
+      <h2>Resume</h2>
+      <!-- <p>
+        Passionate front-end developer skilled in building responsive, user-friendly, 
+        and high-performing web applications. With hands-on experience in 
+        modern frameworks and real-world client projects, I bring creativity, 
+        problem-solving, and technical expertise to deliver impactful digital solutions.
+      </p> -->
+    </div>
 
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up">
-              <h3 class="resume-title">Sumary</h3>
-              <div class="resume-item pb-0">
-                <h4>Hassan Gazder</h4>
-                <p>
-                  <em
-                    >I'm a dedicated front-end developer with expertise in HTML,
-                    CSS, JavaScript, Bootstrap, Angular, React, React Native,
-                    and MySQL. I specialize in crafting captivating user
-                    experiences and building responsive web applications. Let's
-                    work together to bring your digital projects to life</em
-                  >
-                </p>
-              </div>
-
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
-                <h4>Computer Science</h4>
-                <h5>2021</h5>
-                <p class="fw-bold"><em>Nasra Secondary School</em></p>
-                <p>
-                  I'm a Computer Science enthusiast from Nasra Secondary School,
-                  where I delved into the fundamentals of programming,
-                  algorithms, and computer systems during my matriculation. My
-                  time at Nasra laid a solid foundation for my journey in the
-                  tech industry. Let's leverage my educational background and
-                  passion for Computer Science to tackle exciting challenges
-                  together!
-                </p>
-              </div>
-              <div class="resume-item">
-                <h4>Pre-Engineering</h4>
-                <h5>2023</h5>
-                <p><em>Nabi Bagh Z-m Sceince College</em></p>
-                <p>
-                  I completed my Intermediate education in Pre-Engineering at
-                  Nabi Bagh ZM Science College. During my time there, I immersed
-                  myself in subjects like Mathematics, Physics, and Chemistry,
-                  laying the groundwork for my journey into the world of science
-                  and technology. My experience at Nabi Bagh instilled in me a
-                  passion for problem-solving and analytical thinking, which I
-                  bring to every aspect of my work. Let's leverage my
-                  educational background and passion for science to tackle new
-                  challenges together!
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>Techts</h4>
-                <h5>2021-2022</h5>
-                <p>JUNIOR FRONT-END-DEVELOPER</p>
-                <ul>
-                  <li>
-                    Practical Skills: Gained hands-on experience in building
-                    websites and applications using HTML, CSS, and JavaScript
-                    during my internship.
-                  </li>
-                  <li>
-                    Framework Proficiency: Developed proficiency in front-end
-                    frameworks like React.js and Angular, contributing to
-                    dynamic and scalable web projects.
-                  </li>
-                  <li>
-                    Problem-solving: Strengthened problem-solving abilities by
-                    debugging code and resolving issues related to browser
-                    compatibility and performance optimization.
-                  </li>
-                </ul>
-              </div>
-              <div class="resume-item">
-                <h4>Panacloud</h4>
-                <h5>July 2023 To December 2023</h5>
-                <p><em>Karachi Pakistan</em></p>
-                <ul>
-                  <li>
-                    Comprehensive Development: During my internship, I gained
-                    exposure to both front-end and backend development tasks.
-                    While focusing on front-end technologies like HTML, CSS, and
-                    JavaScript for crafting user interfaces, I also delved into
-                    backend tasks such as database management and server-side
-                    scripting.
-                  </li>
-                  <li>
-                    Data Handling Proficiency: I developed skills in handling
-                    data between the front-end and backend systems. This
-                    included understanding how to manage and manipulate data
-                    within databases, as well as implementing mechanisms for
-                    data retrieval and storage.
-                  </li>
-                  <li>
-                    Cross-functional Collaboration: Throughout the internship, I
-                    collaborated closely with multidisciplinary teams comprising
-                    designers, front-end developers, and backend engineers. This
-                    collaborative environment allowed me to gain insights into
-                    various aspects of the development process and effectively
-                    contribute to projects spanning both front-end and backend
-                    domains.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+    <div class="row">
+       <!-- Right Column -->
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Professional Experience</h3>
+        
+        <div class="resume-item">
+          <h4>WordPress Developer Intern</h4>
+          <h5>Apr 2025 – Aug 2025</h5>
+          <p><em>Apollo Digitals</em></p>
+          <ul>
+            <li>
+              Delivered an information website in <strong>1–2 days</strong> 
+              and a fully functional e-commerce site in <strong>3 days</strong>, 
+              resolving theme and plugin conflicts efficiently.
+            </li>
+            <li>
+              Improved responsiveness and SEO for multiple client projects, 
+              ensuring optimized user experience and performance.
+            </li>
+            <li>
+              Handled cross-browser compatibility and site speed challenges, 
+              leading to faster delivery and higher client satisfaction.
+            </li>
+          </ul>
         </div>
-      </section>
+
+        <div class="resume-item">
+          <h4>Front-End Developer Intern</h4>
+          <h5>Jul 2023 – Dec 2023</h5>
+          <p><em>Panacloud, Karachi, Pakistan</em></p>
+          <ul>
+            <li>
+              Built small-scale apps including a to-do manager and an e-commerce demo, 
+              tackling state management and component reusability challenges in React.
+            </li>
+            <li>
+              Gained hands-on experience in JavaScript and React.js, 
+              delivering working prototypes within 1–2 days per project.
+            </li>
+            <li>
+              Strengthened debugging and problem-solving skills while collaborating 
+              in a fast-paced, team-oriented environment.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Left Column -->
+      <div class="col-lg-6" data-aos="fade-up">
+        <h3 class="resume-title">Education</h3>
+        <div class="resume-item">
+          <h4>BSc (Hons) Information Technology</h4>
+          <h5>2025 – Present</h5>
+          <p><em>Middlesex University, Dubai</em></p>
+          <p>
+            Currently pursuing a Bachelor's degree in IT, gaining advanced 
+            knowledge of software development, databases, and cloud computing 
+            with a focus on modern technologies and industry practices.
+          </p>
+        </div>
+
+        <div class="resume-item">
+          <h4>Advanced Diploma in Software Engineering</h4>
+          <h5>2021 – 2024</h5>
+          <p><em>Aptech Computer Education</em></p>
+          <p>
+            Completed a comprehensive 3-year program covering front-end and 
+            back-end development, databases, and project-based learning, 
+            strengthening practical coding and software engineering skills.
+          </p>
+        </div>
+      </div>
+
+     
+    </div>
+  </div>
+</section>
+
       <!-- End Resume Section -->
 
       <!-- ======= Portfolio Section ======= -->
@@ -464,34 +588,201 @@
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
               <div class="portfolio-wrap">
-                <a href="https://portfolio.azfamtech.com/travel-and-tour/"
+                <a href="https://aspiredrivingschool.uk/" target="_blank"
                   ><img
-                    src="assets/img/websitelogo.jpg"
+                    src="assets/img/portfolio/Aspire_driving-1024x589.webp"
                     class="img-fluid"
                     alt=""
                 /></a>
                 <div class="portfolio-links">
                   <a
-                    href="assets/img/portfolio/portfolio-1.jpg"
+                    href="assets/img/portfolio/Aspire_driving-1024x589.webp"
                     data-gallery="portfolioGallery"
                     class="portfolio-lightbox"
-                    title="App 1"
+                    title="Project 2"
                     ><i class="bx bx-plus"></i
                   ></a>
                   <a
-                    href="https://portfolio.azfamtech.com/travel-and-tour/"
+                    href="https://aspiredrivingschool.uk/"
                     title="Go To Website"
                     ><i class="bx bx-link"></i
                   ></a>
                 </div>
               </div>
             </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="https://husbimarine.pk/" target="_blank"
+                  ><img
+                    src="assets/img/logo-hasbi-marine.jpg"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/logo-hasbi-marine.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Project 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://husbimarine.pk/"
+                    title="Go To Website"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <a href="https://vgenuine.co.uk/" target="_blank"
+                  ><img
+                    src="assets/img/portfolio/vgen.webp"
+                    class="img-fluid"
+                    alt=""
+                /></a>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/logo-hasbi-marine.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Project 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a
+                    href="https://vgenuine.co.uk/"
+                    title="Go To Website"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            
+            
           </div>
         </div>
       </section>
       <!-- End Portfolio Section -->
+      <!-- ======= Services Section ======= -->
+       <section id="services" class="services section-bg">
+  <div class="container">
+    <div class="section-title">
+      <h2>Services</h2>
+      <p>
+        Offering comprehensive web development solutions tailored to your business needs. 
+        From simple informational websites to complex full-stack applications, 
+        I deliver quality results with efficiency and precision.
+      </p>
+    </div>
+
+    <div class="row">
+      <!-- WordPress Development -->
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+        <div class="icon-box">
+          <!-- <div class="icon"><i class="bx bxl-wordpress"></i></div> -->
+          <h4><a href="">WordPress Development</a></h4>
+          <p>Custom WordPress websites built with performance and SEO in mind. Fast delivery with professional results.</p>
+          <ul class="service-features">
+            <li><i class="bi bi-check-circle"></i> Informational Websites (1-2 days)</li>
+            <li><i class="bi bi-check-circle"></i> E-Commerce Solutions - WooCommerce (3 days)</li>
+            <li><i class="bi bi-check-circle"></i> Custom Theme Development</li>
+            <li><i class="bi bi-check-circle"></i> Plugin Integration & Customization</li>
+            <li><i class="bi bi-check-circle"></i> Website Migration & Maintenance</li>
+            <li><i class="bi bi-check-circle"></i> SEO Optimization & Speed Enhancement</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Full Stack Development -->
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <!-- <div class="icon"><i class="bx bx-code-block"></i></div> -->
+          <h4><a href="">Full Stack Development</a></h4>
+          <p>End-to-end web applications using MERN stack and modern technologies with best practices.</p>
+          <ul class="service-features">
+            <li><i class="bi bi-check-circle"></i> MERN Stack Applications (MongoDB, Express, React, Node.js)</li>
+            <li><i class="bi bi-check-circle"></i> RESTful API Development & Integration</li>
+            <li><i class="bi bi-check-circle"></i> Database Design (MongoDB, MySQL, SQL)</li>
+            <li><i class="bi bi-check-circle"></i> User Authentication & Authorization</li>
+            <li><i class="bi bi-check-circle"></i> Payment Gateway Integration</li>
+            <li><i class="bi bi-check-circle"></i> Cloud Deployment & DevOps</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Front-End Development -->
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+        <div class="icon-box">
+          <!-- <div class="icon"><i class="bx bx-laptop"></i></div> -->
+          <h4><a href="">Front-End Development</a></h4>
+          <p>Beautiful, responsive interfaces using React.js, Vue.js with exceptional user experiences.</p>
+          <ul class="service-features">
+            <li><i class="bi bi-check-circle"></i> React.js Applications & Components</li>
+            <li><i class="bi bi-check-circle"></i> Vue.js Development</li>
+            <li><i class="bi bi-check-circle"></i> Responsive Web Design (HTML5, CSS3)</li>
+            <li><i class="bi bi-check-circle"></i> Bootstrap & Modern UI Frameworks</li>
+            <li><i class="bi bi-check-circle"></i> Cross-Browser Compatibility</li>
+            <li><i class="bi bi-check-circle"></i> Performance Optimization & Loading Speed</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- E-Commerce Solutions -->
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="icon-box">
+          <!-- <div class="icon"><i class="bx bx-store"></i></div> -->
+          <h4><a href="">E-Commerce Solutions</a></h4>
+          <p>Complete online stores with secure payment processing, inventory management, and mobile responsiveness.</p>
+          <ul class="service-features">
+            <li><i class="bi bi-check-circle"></i> WooCommerce Setup & Configuration</li>
+            <li><i class="bi bi-check-circle"></i> Product Catalog Management</li>
+            <li><i class="bi bi-check-circle"></i> Secure Payment Gateway Integration</li>
+            <li><i class="bi bi-check-circle"></i> Shopping Cart Customization</li>
+            <li><i class="bi bi-check-circle"></i> Order Management & Tracking Systems</li>
+            <li><i class="bi bi-check-circle"></i> Mobile-Responsive E-Commerce Design</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Website Optimization -->
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="icon-box">
+          <!-- <div class="icon"><i class="bx bx-rocket"></i></div> -->
+          <h4><a href="">Website Optimization</a></h4>
+          <p>Boost your website's performance, speed, and search engine rankings with technical improvements.</p>
+          <ul class="service-features">
+            <li><i class="bi bi-check-circle"></i> Page Speed Optimization</li>
+            <li><i class="bi bi-check-circle"></i> SEO Enhancement & Rankings</li>
+            <li><i class="bi bi-check-circle"></i> Mobile Responsiveness Testing</li>
+            <li><i class="bi bi-check-circle"></i> Code Refactoring & Clean Code</li>
+            <li><i class="bi bi-check-circle"></i> Security Hardening & SSL Setup</li>
+            <li><i class="bi bi-check-circle"></i> Performance Monitoring & Analytics</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Maintenance & Support -->
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="icon-box">
+          <!-- <div class="icon"><i class="bx bx-support"></i></div> -->
+          <h4><a href="">Maintenance & Support</a></h4>
+          <p>Ongoing support to keep your website running smoothly, securely, and up-to-date at all times.</p>
+          <ul class="service-features">
+            <li><i class="bi bi-check-circle"></i> Regular Updates & Backups</li>
+            <li><i class="bi bi-check-circle"></i> Bug Fixes & Troubleshooting</li>
+            <li><i class="bi bi-check-circle"></i> Security Monitoring & Protection</li>
+            <li><i class="bi bi-check-circle"></i> Content Updates & Modifications</li>
+            <li><i class="bi bi-check-circle"></i> Performance Monitoring</li>
+            <li><i class="bi bi-check-circle"></i> 24/7 Technical Support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact">
@@ -506,19 +797,19 @@
                 <div class="address">
                   <i class="bi bi-geo-alt"></i>
                   <h4>Location:</h4>
-                  <p>Karachi,Pakistan</p>
+                  <p>Dubai, UAE</p>
                 </div>
 
                 <div class="email">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>Hassangazder3@gmail.com</p>
+                  <p>hassangazder3@gmail.com</p>
                 </div>
 
                 <div class="phone">
                   <i class="bi bi-phone"></i>
                   <h4>Call:</h4>
-                  <p>+92 -3108009180</p>
+                  <p>+971 526141487</p>
                 </div>
 
                 <iframe
